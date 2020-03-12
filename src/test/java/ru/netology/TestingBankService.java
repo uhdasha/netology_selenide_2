@@ -1,13 +1,15 @@
 package ru.netology;
 
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.DisplayName;
 
 import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Condition.*;
 
 public class TestingBankService {
+    @Test
 	@DisplayName("This we send form request")
-    @Tes
+	
     public void send_form()
     {
         open("http://127.0.0.1:9999");
